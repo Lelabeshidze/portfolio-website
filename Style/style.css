@@ -3,10 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+header {
+	position: absolute;
+}
+header img {
+	max-width: 120px;
+	margin: 60px 50px;
+}
+.imgresponsive {
+    z-index:  400;
+    position: relative;
+}
 .slideshow-container {
   max-width: 2000px;
   position: relative;
   margin: auto;
+  max-height: 960px;
+  overflow: hidden;
 }
 
 .fade {
@@ -24,9 +37,4 @@
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
-}
-.headertitle {
-    position:absolute;
-    margin-top: 0px;
-    margin-left: 0px;
 }

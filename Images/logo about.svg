@@ -1,0 +1,26 @@
+<svg id="Logo" xmlns="http://www.w3.org/2000/svg" width="120" height="63" viewBox="0 0 120 63">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1a1a1a;
+        font-size: 40px;
+        font-family: Poppins-ExtraBold, Poppins;
+        font-weight: 800;
+        letter-spacing: 0.03em;
+      }
+
+      .cls-2 {
+        fill: #0081ff;
+        font-size: 33px;
+      }
+
+      .cls-3 {
+        fill: #b3b3b3;
+        font-size: 13px;
+        font-family: Montserrat-Regular, Montserrat;
+      }
+    </style>
+  </defs>
+  <text id="Roca." class="cls-1" transform="translate(0 42)"><tspan x="0" y="0">Roca</tspan><tspan class="cls-2" y="0">.</tspan></text>
+  <text id="Resume_Template" data-name="Resume Template" class="cls-3" transform="translate(1 60)"><tspan x="0" y="0">Resume Template</tspan></text>
+</svg>
