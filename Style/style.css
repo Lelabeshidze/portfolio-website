@@ -3,8 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-header {
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul, ol {
+  list-style: none;
+}
+header{
 	position: absolute;
+  margin: auto;
+  padding: auto;
 }
 header img {
 	max-width: 120px;
@@ -21,7 +30,31 @@ header img {
   max-height: 960px;
   overflow: hidden;
 }
+.slideshow-container img {
+  width: 100%;
+}
+.position {
+  position: relative;
+  z-index:  400;
+  left:920px;
+}
+.position a {
+  position: absolute;
+  bottom: 80px;
+  font-size: 60px;
+  color:#373737;
+  width:270px;
+  right: 50px;
+  vertical-align: middle;
+}
+.position h1 {
+  font-size: 170px;
+  position: relative;
+}
 
+.flex {
+  display: flex;
+}
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -37,4 +70,10 @@ header img {
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+.slidertext {
+  position: absolute;
+  z-index:  400;
+  top: 50%;
+	left: 60%;
 }
