@@ -77,3 +77,31 @@ header img {
   top: 50%;
 	left: 60%;
 }
+.slidericons {
+  display: flex;
+  justify-content: space-between;
+}
+.slidericons li {
+	max-width: 30px;
+	margin: 10px;
+}
+
+.slidericons ul {
+	align-items: center;
+}
+.name span {
+	font-size: 50px;
+}
+
+.name h1 {
+	font-size: 71px;
+}
+
+.name p {
+	font-size: 23px;
+}
+
+.namep, h1 {
+	color: blue;
+	margin-bottom: 20px;
+}
