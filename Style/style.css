@@ -214,16 +214,8 @@ header img {
     margin-top: 20px;
     background: #E93656;
     display: block;
-    padding-left:35px;
-  }
-  .mainprogressbar1 {
-    height: 6px;
-    width: 180px;
-    border-radius: 3px;
-    margin-top: 20px;
-    background: #E93656;
-    display: block;
     margin-left:35px;
+    margin-top: 10px;
   }
   .mainprogressbar2 {
     height: 6px;
@@ -233,6 +225,7 @@ header img {
     background: #E93656;
     display: block;
     margin-left:35px;
+    margin-top: 10px;
   }
   .mainprogressbar3 {
     height: 6px;
@@ -242,6 +235,7 @@ header img {
     background: #E93656;
     display: block;
     margin-left:35px;
+    margin-top: 10px;
   }
   .mainprogressbar4 {
     height: 6px;
@@ -250,5 +244,12 @@ header img {
     margin-top: 20px;
     background: #E93656;
     display: block;
+    margin-left:35px;
+    margin-top: 10px;
+  }
+  .name2 {
+   color:#222222 ;
+  }
+  .bartitle {
     margin-left:35px;
   }
