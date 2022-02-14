@@ -359,12 +359,15 @@ header img {
 .phone img:hover {
   background-color: #E93656;
   border-radius: 100%;
+  cursor: pointer;
 }
 .address img:hover{
   background-color: #E93656;
   border-radius: 100%;
+  cursor: pointer;
 }
 .email img:hover {
     background-color: #E93656;
   border-radius: 100%;
+  cursor: pointer;
 }
