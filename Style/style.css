@@ -168,10 +168,10 @@ header img {
     margin-top: 60px;
   }
   .mainimg img {
-    max-width:300px;
+    max-width:450px;
   }
   .aboutme {
-    max-width: 350px;
+    max-width: 380px;
     margin: 50px 0;
     line-height: 1.5em;
     text-align: justify;
@@ -179,17 +179,17 @@ header img {
   }
   .aboutme h1 {
     font-size: 40px;
-    padding-right: 35px;
+    padding-right: 40px;
   }
   .aboutme h4 {
     font-size: 15px;
 	  color: #DAAE19;
-    padding-right:35px;
+    padding-right:40px;
   }
   .aboutme p {
     font-size: 16px;
     color: #555555; /*light grey*/
-    padding: 35px;
+    padding: 40px;
   }
   .btn{
     margin-right: 35px;
@@ -209,47 +209,120 @@ header img {
   }
   .mainprogressbar1 {
     height: 6px;
-    width: 180px;
-    border-radius: 3px;
-    margin-top: 20px;
     background: #E93656;
     display: block;
-    margin-left:35px;
-    margin-top: 10px;
+    animation-name: line_animation;
+    animation-duration: 6s;
+    animation-timing-function:inherit; 
+    width:80%;
   }
   .mainprogressbar2 {
     height: 6px;
-    width: 180px;
-    border-radius: 3px;
-    margin-top: 20px;
     background: #E93656;
     display: block;
-    margin-left:35px;
-    margin-top: 10px;
+    animation-name: line_animation;
+    animation-duration: 6s;
+    animation-timing-function:inherit; 
   }
   .mainprogressbar3 {
     height: 6px;
-    width: 180px;
-    border-radius: 3px;
-    margin-top: 20px;
     background: #E93656;
     display: block;
-    margin-left:35px;
-    margin-top: 10px;
+    animation-name: line_animation;
+    animation-duration: 6s;
+    animation-timing-function:inherit; 
   }
   .mainprogressbar4 {
     height: 6px;
-    width: 180px;
-    border-radius: 3px;
-    margin-top: 20px;
     background: #E93656;
     display: block;
-    margin-left:35px;
-    margin-top: 10px;
+    animation-name: line_animation;
+    animation-duration: 6s;
+    animation-timing-function:inherit; 
   }
   .name2 {
    color:#222222 ;
   }
-  .bartitle {
-    margin-left:35px;
+  .skills {
+    max-width: 380px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
   }
+  .skills li {
+    padding-top: 10px;
+  }
+ .lititle {
+   padding-bottom: 20px;
+   width:300px;
+ }
+ .show-on-scroll {
+  width:300px;
+ }
+ .white {
+  display: block;
+  overflow: hidden;
+  background: #F0F0F0;
+  height: 6px;
+ }
+ .mainprogressbar1.is-visible  {
+	width: 80%;
+	animation: HTML 3s;
+}
+
+.mainprogressbar2.is-visible  {
+	width: 70%;
+	animation: CSS 3s;
+}
+
+.mainprogressbar3.is-visible {
+	width: 40%;
+	animation: Javascript 3s;
+}
+
+.mainprogressbar4.is-visible {
+	width: 20%;
+	animation: React 3s;
+}
+
+@keyframes HTML {
+	0%{
+		width: 0%;
+	}
+	100%{	
+		width: 80%;
+	}
+}
+
+@keyframes CSS {
+	0%{
+		width: 0%;
+	}
+	100%{	
+		width: 70%;
+	}
+}
+
+@keyframes Javascript {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 40%;
+	}
+}
+
+@keyframes React {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 20%;
+	}
+}
+.contact-info {
+  background:#131A36;
+  height:210px;
+  margin: auto;
+  padding: auto;
+}
