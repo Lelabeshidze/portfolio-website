@@ -17,8 +17,8 @@ window.onload = showSlides();
 
 
 var scroll = window.requestAnimationFrame ||
-             // IE Fallback
-             function(callback){ window.setTimeout(callback, 1000/60)};
+
+function(callback){ window.setTimeout(callback, 1000/60)};
 var elementsToShow = document.querySelectorAll('.show-on-scroll'); 
 
 function loop() {
