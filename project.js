@@ -15,8 +15,7 @@ function showSlides() {
 window.onload = showSlides();
 
 
-//profile section skills animation on scroll
-// Detect request animation frame
+
 var scroll = window.requestAnimationFrame ||
              // IE Fallback
              function(callback){ window.setTimeout(callback, 1000/60)};
