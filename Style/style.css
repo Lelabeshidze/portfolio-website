@@ -326,3 +326,45 @@ header img {
   margin: auto;
   padding: auto;
 }
+.phone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 100px;
+}
+.address {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+}
+.email {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 100px;
+}
+.icons{
+  padding-left: 20px;
+}
+.icons p {
+  padding-top:10px;
+  color:#DFDFDF;
+  font-size:14px;
+}
+.icons h2 {
+  font-size:25px;
+  color:#FFFFFF;
+}
+.phone img:hover {
+  background-color: #E93656;
+  border-radius: 100%;
+}
+.address img:hover{
+  background-color: #E93656;
+  border-radius: 100%;
+}
+.email img:hover {
+    background-color: #E93656;
+  border-radius: 100%;
+}
