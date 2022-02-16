@@ -491,7 +491,16 @@ align-items: center;
   display: flex;
   padding-right: 60px;
 }
-
+.borderimg {
+  border: 2px dashed #FFFFFF;
+  border-radius:100%;
+}
+.recomendation-img :hover {
+  border: 2px solid #E93656;
+}
+.recomendation-img img:hover {
+  width: 90%;
+}
 .recomendation-btn {
   width: 13px;
   height: 13px;
