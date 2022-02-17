@@ -467,11 +467,11 @@ header img {
 	visibility: visible;
 }
 .recomendation{
-background-image: url("/Images/clip.jpg");
+/* background-image: url("/Images/clip.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 background-position-x: center;
-background-position-y: center;
+background-position-y: center; */
 background-color: #15263E;
 max-width: 2000px;
 width:100%;
