@@ -84,3 +84,57 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 }
+
+{
+
+function createFilterForProjects() {
+    
+  let liItem = document.querySelectorAll(".latest-projects-nav ul li");
+  let boxItem = document.querySelectorAll('.project-item ');
+  let smallScreen = window.matchMedia( "(max-width: 768px)" );
+
+  liItem.forEach(li => {
+      li.addEventListener("click", function() {
+          liItem.forEach(li => {
+              li.className = "";
+          })
+          li.className = "All";
+
+          let value = li.textContent;
+          updatedValue = value.replace(/ /g,"_");
+          boxItem.forEach(box => {
+              box.style.display = "none";
+              
+              if(box.getAttribute("data-filter") == updatedValue.toLowerCase() || updatedValue == "All") {
+                  box.style.display = "flex";
+                  
+                  if (smallScreen.matches) {
+                      box.style.width = "100%";
+                      
+                  } else {
+                      box.style.opacity = "0.9";
+                  }
+                  
+              }
+
+              if(updatedValue == "All") {
+                  box.style.display = "flex";
+
+                  if (smallScreen.matches) {
+                      box.style.width = "100%";
+                      
+                  } else {
+                      box.style.width = "calc(100% / 3)";
+                  }
+                  
+              }
+          })
+      })
+
+      
+  })
+
+}
+
+createFilterForProjects();
+}
