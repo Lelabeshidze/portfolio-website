@@ -467,11 +467,6 @@ header img {
 	visibility: visible;
 }
 .recomendation{
-/* background-image: url("/Images/clip.jpg"); */
-background-size: cover;
-background-repeat: no-repeat;
-background-position-x: center;
-background-position-y: center;
 background-color: #15263E;
 max-width: 2000px;
 width:100%;
@@ -586,6 +581,8 @@ align-items: center;
 .heart  {
   width: 14px;
   height:12px;
+  margin-top: 100px;
+  opacity:1;
 }
 .img__wrap {
   position: relative;
@@ -597,7 +594,7 @@ align-items: center;
   left: 0;
   right: 0;
   visibility: hidden;
-  opacity: 0;
+  opacity: 1;
   vertical-align: middle;
     display: flex;
     flex-direction: column;
@@ -605,9 +602,9 @@ align-items: center;
     align-items: center;
     cursor: pointer;
 }
-.img__wrap:hover .img__description {
+.img__wrap:hover .img__description  {
   visibility: visible;
-  opacity: 0.5;
-  background-color: #555555;
+  opacity: 1;
+  background-color: #15263E;
   color:#FFFFFF;
 }
