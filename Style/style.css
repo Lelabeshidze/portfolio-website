@@ -373,16 +373,22 @@ header img {
   background-color: #E93656;
   border-radius: 100%;
   cursor: pointer;
+  border:2px solid #E93656;
+  width: 90%;
 }
 .address img:hover{
   background-color: #E93656;
   border-radius: 100%;
   cursor: pointer;
+  border: 2px dashed #ffff;
+  width: 90%;
 }
 .email img:hover {
   background-color: #E93656;
   border-radius: 100%;
   cursor: pointer;
+  border: 2px solid #E93656;
+  width: 90%;
 }
 .soc-icons {
   margin-top: 50px;
