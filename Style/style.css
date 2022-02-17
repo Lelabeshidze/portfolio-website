@@ -534,3 +534,35 @@ align-items: center;
   color:#FFFFFF;
   padding-top: 20px;
 }
+.project-item img {
+  width:300px;
+}
+.latest-projects-content {
+  display: flex;
+}
+.latest-projects-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.latest-projects-title {
+  margin-left: 410px;
+  margin-bottom: 20px;
+}
+.h1 {
+  font-size:70px;
+  color: #2E2E2E;
+}
+.latest-projects-nav {
+  background-color: #15263E;
+  height:300px;
+  width:280px;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.latest-projects-nav li {
+  padding: 5px;
+  color:#FFFFFF;
+  font-size:18px;
+}
