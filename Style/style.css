@@ -467,7 +467,7 @@ header img {
 	visibility: visible;
 }
 .recomendation{
-background-image: url("/Images/clip.jpg");
+/* background-image: url("/Images/clip.jpg"); */
 background-size: cover;
 background-repeat: no-repeat;
 background-position-x: center;
