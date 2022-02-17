@@ -472,6 +472,7 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position-x: center;
 background-position-y: center;
+background-color: #15263E;
 max-width: 2000px;
 width:100%;
 height: 570px;
@@ -565,6 +566,7 @@ align-items: center;
   padding: 5px;
   color:#FFFFFF;
   font-size:18px;
+  cursor: pointer;
 }
 .project-item {
   position: relative;
@@ -601,6 +603,7 @@ align-items: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .img__wrap:hover .img__description {
   visibility: visible;
