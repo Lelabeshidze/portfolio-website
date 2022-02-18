@@ -109,7 +109,8 @@ header img {
   justify-content: center;
 }
 .firsticons{
-  padding-top:40px;
+  padding-top:55px;
+  /* margin-left:260px; */
 }
 .slidericons ul {
 	align-items: center;
@@ -139,6 +140,7 @@ header img {
 }
 .pink {
   color: #E93656;
+  font-size:18px;
 }
 .progressbar1 {
   height: 6px;
@@ -150,6 +152,7 @@ header img {
 }
 .bold {
   color:#212121;
+  font-size:20px;
 }
 @keyframes line_animation {
   from {
@@ -572,6 +575,10 @@ align-items: center;
 .project-item {
   position: relative;
 }
+.latest-projects-nav li:hover {
+  color:#E93656;
+  transition: 0.5s;
+}
 .heart  {
   width: 14px;
   height:12px;
@@ -602,4 +609,104 @@ align-items: center;
   background-color: #15263E;
   color:#FFFFFF;
 }
-
+.articles {
+  max-width:2000px;
+  width: 100%;
+  margin:auto;
+  padding: auto;
+}
+.articles-boxes {
+  max-width:2000px;
+  width: 100%;
+  margin-top:60px;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  
+}
+.art-section {
+  display:flex;
+  align-items: center;
+}
+.art-first-section-box img {
+  width:650px;
+  height:550px;
+}
+.date {
+  writing-mode: vertical-rl;
+  transform:scale(-1);
+  width:100px;
+  height:550px;
+  background-color: #15263E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center
+}
+.date h1 {
+  color:#E93656;
+}
+.art-first-section-box {
+  display: flex;
+}
+.art-first-section-text {
+  width:450px;
+  height:550px;
+  background-color: #FAFAFA;
+}
+.art-first-section-text h5 {
+  padding-top:20px;
+  padding-left: 15px;
+  color: #888888;
+}
+.art-first-section-text h1 {
+  padding-top:20px;
+  padding-left: 15px;
+  color:#161616;
+}
+.art-first-section-text p {
+  padding-top:10px;
+  padding-left: 15px;
+  color:#494949;
+}
+.art-first-section-text h4{
+  padding-top:20px;
+  padding-left:15px;
+  color: #494949;
+  cursor: pointer;
+}
+.art-first-section-text h4:hover {
+  color:#E93656;
+  transition: 0.5s;
+}
+.iconborder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    width: 95px;
+    height: 95px;
+    margin: 20px 10px;
+    border-radius: 50%;
+    border: 0;
+    background-color: #ffffff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.iconborder:hover {
+  background-color:#15263E;
+  opacity:0.8;
+}
+.articles-title  {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 30px;
+}
+.articles-title h6 {
+color: #2ED279;
+}
+.articles-title h1{ 
+  color:#2E2E2E;
+  padding-top: 20px;
+}
