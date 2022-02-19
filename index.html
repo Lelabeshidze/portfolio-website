@@ -465,15 +465,21 @@
             <form id="contact-info-form" action="/sendcontact" method="post" novalidate>
                 <div class="form-field">
                     <input id="name" type="text" placeholder="Your Name*" required >
-                    <input id="email" type="text" placeholder="Email Address*" required>
+                    <input id="email" type="email" placeholder="Email Address*" required>
                     <input id="website" type="text" placeholder="Your Website*" required>
                 </div>
                 <textarea id="message" placeholder="MESSAGE" required></textarea>
-                <button class="sendbutton" type="send">SEND MESSAGE</button>
+                <button class="sendbutton" type="submit">SEND MESSAGE</button>
             </form>
             </div>
         </div>
     </section>
+    <div id="user-notification" class="modal">
+        <div class="modal-content">
+                <button class="modal-close">X</button>
+                <p>Thank you for getting in touch! We appreciate you contacting us.</p>
+        </div>
+    </div>
 <script src="project.js"></script>
 </body>
 </html>
