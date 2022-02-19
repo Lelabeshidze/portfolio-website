@@ -482,7 +482,7 @@ header img {
 	visibility: visible;
 }
 .recomendation{
-  background-image: url('/Images/background.jpg');
+/* background-image: url('/Images/background.jpg'); */
 background-color: #15263E;
 max-width: 2000px;
 width:100%;
