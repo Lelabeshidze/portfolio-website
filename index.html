@@ -16,7 +16,7 @@
             </a>
             <div class="position">
                 <h1>01</h1>
-                <a class="abouttitle" href="#about">About me</a>>
+                <a class="abouttitle" href="#abouttitle" >About me</a>>
             </div>
         </div>
     </header>
@@ -79,7 +79,7 @@
         </div>
     </section>
     <section>
-        <div class="secondsec-cont">
+        <div class="secondsec-cont" id="abouttitle">
         <div class="aboutme">
             <h1 class="name2">Lela Beshidze</h1>
             <h4>Front End Developer</h4>
@@ -420,28 +420,57 @@
         <div class="clients">
             <div class="lasticons">
                 <img class="hideimg" src="Images/brand1.svg" alt="icon">
-                <h4 class="clientinfo">Client 1</h4>
-                <p class="clientinfo">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="clientinfo">
+                    <h4>Client 1</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
             </div>
             <div class="lasticons">
                 <img  class="hideimg" src="Images/brand2.svg" alt="icon">
-                <h4 class="clientinfo">Client 2</h4>
-                <p class="clientinfo">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="clientinfo">
+                    <h4>Client 1</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
             </div>
             <div class="lasticons">
                 <img class="hideimg" src="Images/brand3.svg" alt="icon">
-                <h4 class="clientinfo">Client 3</h4>
-                <p class="clientinfo">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="clientinfo">
+                    <h4>Client 1</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
             </div>
             <div class="lasticons">
                 <img class="hideimg" src="Images/brand4.svg" alt="icon">
-                <h4 class="clientinfo">Client 4</h4>
-                <p class="clientinfo">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="clientinfo">
+                    <h4>Client 1</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
             </div>
             <div class="lasticons">
                 <img  class="hideimg" src="Images/brand5.svg" alt="icon">
-                <h4 class="clientinfo">Client 5</h4>
-                <p class="clientinfo">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="clientinfo">
+                    <h4>Client 1</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="lastsection">
+        <div class="lastsection-cont">
+            <div class="lastsection-title">
+                <h1>CONTACT US</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="lastsection-form">
+            <form id="contact-info-form" action="/sendcontact" method="post" novalidate>
+                <div class="form-field">
+                    <input id="name" type="text" placeholder="Your Name*" required >
+                    <input id="email" type="text" placeholder="Email Address*" required>
+                    <input id="website" type="text" placeholder="Your Website*" required>
+                </div>
+                <textarea id="message" placeholder="MESSAGE" required></textarea>
+                <button class="sendbutton" type="send">SEND MESSAGE</button>
+            </form>
             </div>
         </div>
     </section>
