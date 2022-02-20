@@ -45,28 +45,30 @@ header img {
   width: 100%;
 }
 .position {
-  position: relative;
-  z-index:  400;
+  z-index:  4;
   display: flex;
+  font-family:Poppins;
+  text-align:center;
+  vertical-align:middle;
+  justify-content:center;
 }
-.position a {
-  position: absolute;
-  bottom: 95px;
-  font-size: 50px;
-  color:#373737;
-  width:270px;
-  right:0px;
+.bignumber {
+  position:relative;
+  font-size: 180px;
+  
+}
+
+.abouttitle {
+  position:absolute;
   display:flex;
   text-align:center;
-}
-.position h1 {
-  font-size: 180px;
-  position: relative;
-  display: flex;
-}
-.abouttitle {
-  padding-left: 65px;
-  text-align:center;
+  vertical-align:middle;
+  margin-top:90px;
+  margin-left:90px;
+  font-family:Poppins;
+  font-size: 50px;
+  color:#373737;
+  right:0px;
 }
 .position a:hover {
   color: #E93656;
@@ -104,6 +106,7 @@ header img {
   z-index:  400;
   top: 40%;
 	left: 60%;
+  font-family:Glacial Indifference;
 }
 .slidericons {
   display: flex;
@@ -142,7 +145,8 @@ header img {
   z-index: 400;
   top: 90%;
 	left: 80%;
-  width: 180px;
+  width: 200px;
+  font-family:Montserrat;
 }
 .pink {
   color: #E93656;
@@ -150,7 +154,7 @@ header img {
 }
 .progressbar1 {
   height: 6px;
-  width: 180px;
+  width: 200px;
   border-radius: 3px;
   margin-top: 20px;
   background: #E93656;
@@ -158,7 +162,8 @@ header img {
 }
 .bold {
   color:#212121;
-  font-size:20px;
+  font-size:18px;
+  font-family: url('../Fonts/Montserrat-Bold.woff2') format('woff2');
 }
 @keyframes line_animation {
   from {
@@ -218,6 +223,7 @@ header img {
     color: #FFFFFF;
     font-size: 15px;
     cursor: pointer;
+    font-family:Glacial Indifference;
   }
   .btn:hover{
     transition: ease all 0.3s;
@@ -264,12 +270,20 @@ header img {
   }
   .name2 {
    color:#222222 ;
+   font-family:Glacial Indifference;
+  }
+  .muli{
+    font-family:Muli;
+  }
+  .muliregular {
+    font-family:Muli;
   }
   .skills {
     max-width: 380px;
     margin-left: 40px;
     display: flex;
     flex-direction: column;
+    font-family:Glacial Indifference;
   }
   .skills li {
     padding-top: 10px;
@@ -373,10 +387,12 @@ header img {
   padding-top:10px;
   color:#DFDFDF;
   font-size:14px;
+  font-family:Muli;
 }
 .icons h2 {
   font-size:25px;
   color:#FFFFFF;
+  font-family:Glacial Indifference;
 }
 .phone img:hover {
   background-color: #E93656;
@@ -457,12 +473,14 @@ header img {
 	font-size: 22px;
 	margin: 20px;
   text-align: center;
+  font-family:Glacial Indifference;
 }
 .description {
 	font-size: 14px;
 	color: white;
 	text-align: center;
 	visibility: hidden;
+  font-family:Muli;
 }
 
 .services-block:hover .hidden {
@@ -502,6 +520,7 @@ align-items: center;
   display: flex;
   width: 500px;
   padding-right: 80px;
+  font-family:Roboto;
 }
 .recomendation-img {
   vertical-align: middle;
@@ -541,10 +560,13 @@ align-items: center;
   color: #E93656;
   margin-right: 100px;
   padding-top: 20px;
+  font-family:Roboto;
+
 }
 .person-info h2 {
   color:#FFFFFF;
   padding-top: 20px;
+  font-family:Glacial Indifference;
 }
 .project-item img {
   width:300px;
@@ -559,6 +581,7 @@ align-items: center;
 .latest-projects-title {
   margin-left: 410px;
   margin-bottom: 20px;
+  font-family:Glacial Indifference;
 }
 .h1 {
   font-size:70px;
@@ -578,6 +601,7 @@ align-items: center;
   color:#FFFFFF;
   font-size:18px;
   cursor: pointer;
+  font-family:Glacial Indifference;
 }
 .project-item {
   position: relative;
@@ -604,11 +628,11 @@ align-items: center;
   visibility: hidden;
   opacity: 1;
   vertical-align: middle;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 .img__wrap:hover .img__description  {
   visibility: visible;
@@ -667,22 +691,26 @@ align-items: center;
   padding-top:20px;
   padding-left: 15px;
   color: #888888;
+  font-family:Muli;
 }
 .art-first-section-text h1 {
   padding-top:20px;
   padding-left: 15px;
   color:#161616;
+  font-family:Muli;
 }
 .art-first-section-text p {
   padding-top:10px;
   padding-left: 15px;
   color:#494949;
+  font-family:Glacial Indifference;
 }
 .art-first-section-text h4{
   padding-top:20px;
   padding-left:15px;
   color: #494949;
   cursor: pointer;
+  font-family:Muli;
 }
 .art-first-section-text h4:hover {
   color:#E93656;
@@ -714,11 +742,14 @@ align-items: center;
 }
 .articles-title h6 {
 color: #2ED279;
+font-size:13;
+font-family:Glacial Indifference;
 }
 .articles-title h1{ 
   color:#2E2E2E;
   padding-top: 20px;
   font-size:70px;
+  font-family:Glacial Indifference;
 }
 .lasticons img {
   width:100px;
@@ -741,6 +772,7 @@ color: #2ED279;
 }
 .downtitle {
   margin-top: 80px;
+  font-family:Glacial Indifference;
 }
 .lasticons {
   position: relative;
@@ -761,7 +793,12 @@ color: #2ED279;
   cursor: pointer;
   text-align: center;
 }
-
+.clientinfo h4 {
+  font-family:Poppins;
+}
+.clientinfo p {
+  font-family:Roboto;
+}
 .lasticons {
   padding-left:50px;
 }
@@ -815,9 +852,11 @@ background-color: rgba(0, 0, 0, 0.8);
 }
 .lastsection-title h1 {
 color:#FFFFFF;
+font-family:Jaapokki;
 }
 .lastsection-title p {
   color:#EEEEEE;
+  font-family:Roboto;
   }
 .lastsection-form{
   display: flex;
@@ -830,6 +869,7 @@ input {
   outline: none;
   border: 0;
   padding:20px 10px;
+  font-family:Poppins;
 }
 textarea {
   max-width:890px;
@@ -840,6 +880,7 @@ textarea {
   outline: none;
   border: 0;
   padding:20px 10px;
+  font-family:Poppins;
 }
 ::placeholder {
 color:#515151;
@@ -855,6 +896,7 @@ opacity:1;
   opacity: 1;
   cursor:pointer;
   transition: 0.3s ease-in-out all;
+  font-family:Glacial Indifference;
 }
 .sendbutton:hover {
   background-color:#E93656;
@@ -933,11 +975,12 @@ footer {
   text-align:center;
 }
 .footerparagraph p {
-  padding-top:40px;
+  padding-top:30px;
   text-align:center;
   max-width:500px;
   width:100%;
   color:#A5A5A5;
+  font-family:Roboto;
 }
 .footercopy {
   position:absolute;
@@ -952,4 +995,5 @@ footer {
   background-color:#171717;
   margin-top:340px;
   color:#A0A8B7;
+  font-family:Muli;
 }

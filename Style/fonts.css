@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Jaapokki';
+    src: url('../Fonts/Jaapokki-Regular.eot');
+    src: url('../Fonts/Jaapokki-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/Jaapokki-Regular.woff2') format('woff2'),
+        url('../Fonts/Jaapokki-Regular.woff') format('woff'),
+        url('../Fonts/Jaapokki-Regular.ttf') format('truetype'),
+        url('../Fonts/Jaapokki-Regular.svg#Jaapokki-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Glacial Indifference';
+    src: url('../Fonts/GlacialIndifference-Bold.eot');
+    src: url('../Fonts/GlacialIndifference-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/GlacialIndifference-Bold.woff2') format('woff2'),
+        url('../Fonts/GlacialIndifference-Bold.woff') format('woff'),
+        url('../Fonts/GlacialIndifference-Bold.ttf') format('truetype'),
+        url('../Fonts/GlacialIndifference-Bold.svg#GlacialIndifference-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../Fonts/Poppins-ExtraBold.eot');
+    src: url('../Fonts/Poppins-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/Poppins-ExtraBold.woff2') format('woff2'),
+        url('../Fonts/Poppins-ExtraBold.woff') format('woff'),
+        url('../Fonts/Poppins-ExtraBold.ttf') format('truetype'),
+        url('../Fonts/Poppins-ExtraBold.svg#Poppins-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Muli';
+    src: url('../Fonts/Muli.eot');
+    src: url('../Fonts/Muli.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/Muli.woff2') format('woff2'),
+        url('../Fonts/Muli.woff') format('woff'),
+        url('../Fonts/Muli.ttf') format('truetype'),
+        url('../Fonts/Muli.svg#Muli') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../Fonts/Roboto-Light.eot');
+    src: url('../Fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/Roboto-Light.woff2') format('woff2'),
+        url('../Fonts/Roboto-Light.woff') format('woff'),
+        url('../Fonts/Roboto-Light.ttf') format('truetype'),
+        url('../Fonts/Roboto-Light.svg#Roboto-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Muli';
+    src: url('../Fonts/Muli-Regular.eot');
+    src: url('../Fonts/Muli-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/Muli-Regular.woff2') format('woff2'),
+        url('../Fonts/Muli-Regular.woff') format('woff'),
+        url('../Fonts/Muli-Regular.ttf') format('truetype'),
+        url('../Fonts/Muli-Regular.svg#Muli-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../Fonts/Montserrat-Bold.eot');
+    src: url('../Fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('../Fonts/Montserrat-Bold.woff') format('woff'),
+        url('../Fonts/Montserrat-Bold.ttf') format('truetype'),
+        url('../Fonts/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Muli';
+    src: url('../Fonts/Muli-Light.eot');
+    src: url('../Fonts/Muli-Light.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/Muli-Light.woff2') format('woff2'),
+        url('../Fonts/Muli-Light.woff') format('woff'),
+        url('../Fonts/Muli-Light.ttf') format('truetype'),
+        url('../Fonts/Muli-Light.svg#Muli-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../Fonts/Montserrat-Regular.eot');
+    src: url('../Fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('../Fonts/Montserrat-Regular.woff') format('woff'),
+        url('../Fonts/Montserrat-Regular.ttf') format('truetype'),
+        url('../Fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Glacial Indifference';
+    src: url('../Fonts/GlacialIndifference-Regular.eot');
+    src: url('../Fonts/GlacialIndifference-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/GlacialIndifference-Regular.woff2') format('woff2'),
+        url('../Fonts/GlacialIndifference-Regular.woff') format('woff'),
+        url('../Fonts/GlacialIndifference-Regular.ttf') format('truetype'),
+        url('../Fonts/GlacialIndifference-Regular.svg#GlacialIndifference-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../Fonts/Poppins-SemiBold.eot');
+    src: url('../Fonts/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/Poppins-SemiBold.woff2') format('woff2'),
+        url('../Fonts/Poppins-SemiBold.woff') format('woff'),
+        url('../Fonts/Poppins-SemiBold.ttf') format('truetype'),
+        url('../Fonts/Poppins-SemiBold.svg#Poppins-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../Fonts/Roboto-Regular.eot');
+    src: url('../Fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../Fonts/Roboto-Regular.woff') format('woff'),
+        url('../Fonts/Roboto-Regular.ttf') format('truetype'),
+        url('../Fonts/Roboto-Regular.svg#Roboto-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
