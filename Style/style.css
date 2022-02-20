@@ -500,7 +500,7 @@ header img {
 	visibility: visible;
 }
 .recomendation{
-/* background-image: url('/Images/background.jpg'); */
+background-image: url('../Images/background.jpg');
 background-color: #15263E;
 max-width: 2000px;
 width:100%;
@@ -816,6 +816,7 @@ font-family:Glacial Indifference;
 }
 
 .lastsection{
+  background-image: url('../Images/Layer5\ \(1\).png');
 position:relative;
 max-width: 2000px;
 width:100%;
