@@ -632,11 +632,13 @@ align-items: center;
   
 }
 .art-section {
+  max-width:2000px;
+  width: 100%;
   display:flex;
   align-items: center;
 }
 .art-first-section-box img {
-  width:620px;
+  width:580px;
   height:550px;
 }
 .date {
@@ -657,7 +659,7 @@ align-items: center;
   display: flex;
 }
 .art-first-section-text {
-  width:500px;
+  width:680px;
   height:550px;
   background-color: #FAFAFA;
 }
