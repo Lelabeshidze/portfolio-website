@@ -194,9 +194,9 @@ function sendData() {
   urlEncodedData = urlEncodedDataPairs.join( '' )
 
   
-  XHR.addEventListener( 'error', function(event) {
-    alert( 'Oops! Something went wrong.' );
-  } );
+  // XHR.addEventListener( 'error', function(event) {
+  //   alert( 'Oops! Something went wrong.' );
+  // } );
 
   XHR.open( 'POST', 'http://api.kesho.me/v1/user-test/contact' );
 
