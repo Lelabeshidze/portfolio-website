@@ -5,10 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final project</title>
-    <link rel="stylesheet" type="text/css" href="Style/style.css">
+    <link rel="stylesheet" href="Style/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="Style/fonts.css">
-    <link rel="stylesheet" type="text/css" href="Style/media.css">
 </head>
 <body>
     <header>
@@ -17,7 +15,7 @@
             <img class="imgresponsive" src="Images/logo about.svg" alt="logo">
             </a>
             <div class="position">
-                <h1 class="bignumber">01</h1>
+                <h1>01</h1>
                 <a class="abouttitle" href="#abouttitle" >About me</a>>
             </div>
         </div>
@@ -84,8 +82,8 @@
         <div class="secondsec-cont" id="abouttitle">
         <div class="aboutme">
             <h1 class="name2">Lela Beshidze</h1>
-            <h4 class="muli">Front End Developer</h4>
-            <p class="muliregular"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eveniet quasi in voluptates fugit numquam reprehenderit minima excepturi sunt odio non dolorum, incidunt dolores quaerat architecto repellendus nam laudantium tenetur!
+            <h4>Front End Developer</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eveniet quasi in voluptates fugit numquam reprehenderit minima excepturi sunt odio non dolorum, incidunt dolores quaerat architecto repellendus nam laudantium tenetur!
             </p>
             <div>
                 <button class="btn">Hire me</button>
@@ -169,10 +167,8 @@
     </div>
     <div class="contact-info secondsec-cont">
         <div class="phone">
-            <div class="hide">
-                <a href="+995 598 670 190">
+            <div>
                 <img src="Images/phone.svg" alt="icon">
-                </a>
             </div>
             <div class="icons">
                 <h2>Phone Number</h2>
@@ -180,7 +176,7 @@
             </div>
         </div>
         <div class="address">
-            <div class="hide">
+            <div>
                 <img src="Images/address.svg" alt="icon">
             </div>
             <div class="icons">
@@ -189,10 +185,8 @@
             </div>
         </div>
         <div class="email">
-            <div class="hide">
-                <a href="lela.beshidze@gmail.com">
+            <div>
                 <img src="Images/email.svg" alt="icon">
-            </a>
             </div>
             <div class="icons">
                 <h2>Email Address</h2>
@@ -301,17 +295,17 @@
             <div class="latest-projects-content ">
                 <div class="latest-projects-nav">
                     <ul>
-                        <li class="all">All</li>
+                        <li class="all" id="all">All</li>
                         <li id="workideas">Work Ideas</li>
                         <li id="mockup">Mockup</li>
                         <li id="psd">PSD Design</li>
                         <li id="logo">Logo</li>
                         <li id="presentation">Presentation</li>
-                        <li id="pr-icons">Icons</li>
+                        <li id="icons">Icons</li>
                     </ul>
                 </div>
                 <div class="latest-projects-items thirdcontainer ">
-                    <div class="project-item img__wrap" data-filter="work_ideas">
+                    <div class="project-item img__wrap" data-filter="workideas">
                             <img class="projectimg" src="Images/abstract2.jpg" alt="logo">
                                 <img class="heart img__description" src="Images/heart.svg" alt="icon">
                                <p class="img__description">9 month ago</p>
@@ -323,7 +317,7 @@
                                <p class="img__description">6 month ago</p>
                                <h2 class="img__description">Mockup</h2>
                     </div>
-                    <div class="project-item img__wrap" data-filter="psd_design">
+                    <div class="project-item img__wrap" data-filter="psd">
                             <img class="projectimg" src="Images/abstract4.jpg" alt="logo">
                                 <img class="heart img__description" src="Images/heart.svg" alt="icon">
                                <p class="img__description">5 month ago</p>
@@ -365,7 +359,7 @@
                     <img src="Images/designer.svg" alt="icon">
                     </div>
                     <h5>IN FREELANCING COMPANY</h3>
-                    <h1>Graphic Designer</h1>
+                    <h1>IN FREELANCING COMPANY</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, fugiat? Aspernatur rerum ut, eligendi unde mollitia recusandae officia, sed nemo repellendus optio incidunt vel cumque perspiciatis. Commodi blanditiis reiciendis esse.</p>
                     <h4>Read More</h4>
                 </div>
@@ -470,11 +464,11 @@
             <div class="lastsection-form">
             <form id="contact-info-form" action="/sendcontact" method="post" novalidate>
                 <div class="form-field">
-                    <input id="name" type="text" placeholder="Your Name*" required >
-                    <input id="email" type="email" placeholder="Email Address*" required>
-                    <input id="website" type="text" placeholder="Your Website*" required>
+                    <input id="name" type="text" placeholder="Your Name*"  >
+                    <input id="email" type="email" placeholder="Email Address*" >
+                    <input id="website" type="text" placeholder="Your Website*" >
                 </div>
-                <textarea id="message" placeholder="MESSAGE" required></textarea>
+                <textarea id="message" placeholder="MESSAGE" ></textarea>
                 <button class="sendbutton" type="submit">SEND MESSAGE</button>
             </form>
             </div>
@@ -484,56 +478,23 @@
         <div class="modal-content">
                 <button class="modal-close">X</button>
                 <p>Thank you for getting in touch! We appreciate you contacting us.</p>
+                <div class="field_info">
+                    <div class="field_info_item">
+                        <span>Name: </span><span id="nameVal"></span>
+                    </div>
+                    <div class="field_info_item">
+                        <span>Email: </span><span id="emailVal"></span>
+                    </div>
+                    <div class="field_info_item">
+                        <span>Website: </span><span id="websiteVal"></span>
+                    </div>
+                    <div class="field_info_item">
+                        <span>Message: </span>
+                        <p id="messageVal"></p>
+                    </div>
+                </div>
         </div>
     </div>
-    <footer>
-        <div class="footercontent">
-            <div class="footerparagraph" >
-                <a class="footertitle" href="index.html">
-                    <img class="footerimg" src="Images/logo footer.svg" alt="logo">
-                </a>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam quis nostrud.</p>
-            </div>
-            <div class="footericons">
-                <ul class="slidericons">
-                    <li class="slidericons">
-                        <a href="https://www.facebook.com/" target="_blank">
-                        <i class="fa fa-facebook" aria-hidden="true" style="font-size:20px"></i>
-                        </a>
-                    </li>
-                    <li class="slidericons">
-                        <a href="https://www.twitter.com/" target="_blank">
-                        <i class="fa fa-twitter" aria-hidden="true" style="font-size:20px"></i>
-                        </a>
-                    </li>
-                    <li class="slidericons">
-                        <a href="https://www.google.com/" target="_blank">
-                        <i class="fa fa-google-plus"aria-hidden="true" style="font-size:20px"></i>
-                        </a>
-                    </li>
-                    <li class="slidericons">
-                        <a href="https://www.behance.net/" target="_blank">
-                            <i class="fa fa-behance" style="font-size:20px"></i>
-                        </a>
-                    </li>
-                    <li class="slidericons">
-                        <a href="https://www.pinterest.com/" target="_blank">
-                        <i class="fa fa-pinterest-p"aria-hidden="true" style="font-size:20px"></i>
-                        </a>
-                    </li>
-                    <li class="slidericons">
-                        <a href="https://www.instagram.com/" target="_blank">
-                            <i class="fa fa-instagram" style="font-size:20px"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="footercopy">
-            <p>© All right reserved 2019. Rosa - Creative Agency Website PSD Template.</p>
-        </div>
-    </footer>
 <script src="project.js"></script>
 </body>
 </html>
