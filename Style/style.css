@@ -46,17 +46,17 @@ header img {
 	width: 100%;
 }
 .position {
-	z-index: 4;
+	z-index:  4;
 	display: flex;
-	font-family: Poppins;
-	text-align: center;
-	vertical-align: middle;
-	justify-content: center;
+	font-family:Poppins;
+	text-align:center;
+	vertical-align:middle;
+	justify-content:center;
 }
 .bignumber {
-	position: relative;
+	position:relative;
 	font-size: 180px;
-}
+  }
 
 .abouttitle {
 	position: absolute;
@@ -670,6 +670,7 @@ h1 {
 	width: 100%;
 	display: flex;
 	align-items: center;
+	justify-content:space-around;
 }
 .art-first-section-box img {
 	width: 580px;
@@ -936,7 +937,7 @@ textarea {
 	max-height: 600px;
 	max-width: 1080px;
 	background-color: #fff;
-	/* margin-top: 5%; */
+	margin-top: 5%;
 	vertical-align: middle;
 	padding: 90px 20px;
   text-align: center;
@@ -953,9 +954,7 @@ textarea {
   width: 70%;
   padding: 20px;
 }
-.field_info_item {
 
-}
 
 .modal-close {
 	color: #aaaaaa;

@@ -112,11 +112,11 @@ const generateFilters = () => {
 generateFilters()
 
 // Get the modal
-var modal = document.getElementById('user-notification')
+var modal = document.getElementById("user-notification")
 
-const btn = document.querySelector('.sendbutton')
+const btn = document.querySelector(".sendbutton")
 
-var span = document.getElementsByClassName('modal-close')[0]
+var span = document.getElementsByClassName("modal-close")[0]
 
 // btn.onclick = function () {
 // 	modal.style.display = 'block'
