@@ -184,7 +184,7 @@ window.onclick = function(event) {
   console.log(userData);
   sendMessage(userData)
 });
-function createUser(userData) {
+function sendMessage(userData) {
   const createUserRequest = fetch('http://api.kesho.me/v1/user-test/contact', {
     method: 'POST',
     body: JSON.stringify(userData),
