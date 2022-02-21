@@ -164,50 +164,40 @@ window.onclick = function(event) {
 }
 
 {
-const btn = document.querySelector('.sendbutton');
+   const btn = document.querySelector('.sendbutton');
 
-function sendData() {
-
-  const XHR = new XMLHttpRequest();
   
-  
-    const name = document.querySelector('#name');
+    const form = document.getElementById('contact-info-form')
+    const userName = document.querySelector('#name');
     const email = document.querySelector('#email');
     const website = document.querySelector('#website');
     const message = document.querySelector('#message');
     
-    const nameVal = name.value;
-    const emailVal = email.value;
-    const websiteVal = website.value;
-    const messageVal = message.value;
-
-  let urlEncodedData = "",
-      urlEncodedDataPairs = [nameVal,emailVal,websiteVal,messageVal];
-
-  // Turn the data object into an array of URL-encoded key/value pairs.
-  for(i = 0;  i++;) {
-    urlEncodedDataPairs.push(  encodeURIComponent(name) +'&email=' + encodeURIComponent(email)  +'&website=' + encodeURIComponent(website) +'&message=' + encodeURIComponent(message)  );
-  }
-
-  // Combine the pairs into a single string and replace all %-encoded spaces to
-  // the '+' character; matches the behavior of browser form submissions.
-  urlEncodedData = urlEncodedDataPairs.join( '' )
-
-  
-  // XHR.addEventListener( 'error', function(event) {
-  //   alert( 'Oops! Something went wrong.' );
-  // } );
-
-  XHR.open( 'POST', 'http://api.kesho.me/v1/user-test/contact' );
-
-
-  XHR.setRequestHeader( 'Content-Type', 'application/x-www-form-urlencoded' );
-
-  XHR.send( urlEncodedData );
+    form.addEventListener('submit', e => {
+  e.preventDefault();
+  const userData = {
+    nameVal: userName.value,
+    emailVal: email.value,
+    websiteVal: website.value,
+    messageVal: message.value,
+  }; 
+  console.log(userData);
+  sendMessage(userData)
+});
+function createUser(userData) {
+  const createUserRequest = fetch('http://api.kesho.me/v1/user-test/contact', {
+    method: 'POST',
+    body: JSON.stringify(userData),
+    headers: {
+      'Content-type': 'application/json'
+    }
+  });
+  createUserRequest.then(response => {
+    return response.json();
+  }).then(data => {
+    console.log(data);
+  }).catch(error => {
+    console.log('Save error', error);
+  });
 }
-
-btn.addEventListener( 'click', function() {
-  sendData( {test:'ok'} );
-} )
-sendData()
 }
