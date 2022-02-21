@@ -1,4 +1,4 @@
-var slideIndex = 0
+var sliderIndex = 0
 showSlides()
 
 function showSlides() {
@@ -7,14 +7,16 @@ function showSlides() {
 	for (i = 0; i < slides.length; i++) {
 		slides[i].style.display = 'none'
 	}
-	slideIndex++
-	if (slideIndex > slides.length) {
-		slideIndex = 1
+	sliderIndex++
+	if (sliderIndex > slides.length) {
+		sliderIndex = 1
 	}
-	slides[slideIndex - 1].style.display = 'block'
+	slides[sliderIndex - 1].style.display = 'block'
 	setTimeout(showSlides, 5000)
 }
 
+
+//show-on-scroll
 var scroll =
 	window.requestAnimationFrame ||
 	function (callback) {
@@ -54,37 +56,38 @@ function isElementInViewport(el) {
 	)
 }
 
+//secondslider
 {
 	var slideIndex = 1
-	showSlides(slideIndex)
+	showSlide(slideIndex)
 
 	function currentSlide(n) {
-		showSlides((slideIndex = n))
+		showSlide((slideIndex = n))
 	}
 
-	function showSlides(n) {
+	function showSlide(n) {
 		var i
-		var slides = document.getElementsByClassName('recomendation-content')
+		var slide = document.getElementsByClassName('recomendation-content')
 		var dots = document.getElementsByClassName('recomendation-btn')
-		if (n > slides.length) {
+		if (n > slide.length) {
 			slideIndex = 1
 		}
 		if (n < 1) {
-			slideIndex = slides.length
+			slideIndex = slide.length
 		}
-		for (i = 0; i < slides.length; i++) {
-			slides[i].style.display = 'none'
+		for (i = 0; i < slide.length; i++) {
+			slide[i].style.display = 'none'
 		}
 		for (i = 0; i < dots.length; i++) {
 			dots[i].className = dots[i].className.replace(' active', '')
 		}
-		slides[slideIndex - 1].style.display = 'block'
-		slides[slideIndex - 1].style.display = 'flex'
+		slide[slideIndex - 1].style.display = 'block'
+		slide[slideIndex - 1].style.display = 'flex'
 		dots[slideIndex - 1].className += ' active'
 	}
 }
 
-
+//filterforprojects
 const generateFilters = () => {
 	const filterItems = [
 		...document.querySelectorAll('.latest-projects-nav li'),
