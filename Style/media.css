@@ -1,0 +1,217 @@
+@media screen and (max-width:1044px) {
+    .slideshow-container{
+        max-width: 1000px;
+		margin: 40px 50px;
+        width:100%;
+        position: relative;
+    }
+    .container {
+        max-width: 1000px;
+        width:100%;
+    }
+    .flex {
+        max-width:900px;
+        width:100%;
+    }
+    .secondsec-cont {
+        max-width:1000px;
+        width:100%;
+    }
+    .aboutme {
+        max-width: 200px;
+        margin: 50px 0;
+        text-align: center;
+        vertical-align:middle;
+        justify-content: center;
+    }
+    .aboutme p {
+        width:100%px;
+        font-size:13px;
+        text-align: center;
+        vertical-align:middle;
+    }
+    .aboutme h1 {
+        font-size:25px;
+    }
+    .mainimg img {
+        width:300px;
+    }
+    .mainprogressbar {
+        max-width:100px;
+    }
+    .slidertext{
+        position: absolute;
+        z-index:  4;
+        top: 15%;
+        left: 30%;
+        height:100px;
+        font-size:14px;
+    }
+    .skills {
+        max-width:100px;
+        margin-right: 90px;
+    }
+    .name h1 p {
+        max-width:200px;
+        height:100px;
+        font-size:30px;
+    }
+   .progressbar {
+    position: absolute;
+    z-index: 400;
+    top: 35%;
+    left: 65%;
+    width: 200px;
+    font-size:15px;
+   }
+   .contact-info {
+    max-width:1000px;
+    width: 100%;
+   }
+   .phone, .address, .email {
+       max-width:500px;
+        width:100%;
+   }
+   .recomendation {
+       max-width:1000px;
+       width: 100%;
+   }
+   .recomendation-content {
+       max-width:500px;
+       width:100%;
+   }
+   .articles {
+       max-width: 1000px;
+       width: 100%;
+   }
+   .articles-boxes {
+    max-width: 1000px;
+    width: 100%; 
+   }
+   .art-first-section-box img {
+       width:400px;
+   }
+}
+@media screen and (max-width: 480px) {
+    .slideshow-container{
+        max-width: 400px;
+		margin: 40px 50px;
+        width:100%;
+        position: relative;
+    }
+    .mySlides {
+        max-width:400px;
+        width: 100%;
+    }
+    .container {
+        max-width: 400px;
+        width:100%;
+    }
+    .flex {
+        max-width:300px;
+        width:100%;
+    }
+    .secondsec-cont {
+        max-width:400px;
+        width:100%;
+    }
+    .aboutme {
+        max-width: 100px;
+        margin: 50px 0;
+        text-align: center;
+        vertical-align:middle;
+        justify-content: center;
+    }
+    .muliregular{
+        width:100%;
+        width:300px;
+        font-size:13px;
+        text-align: center;
+        vertical-align:middle;
+    }
+    .aboutme h1 {
+        font-size:20px;
+    }
+    .aboutme h4 {
+        font-size:15px;
+    }
+    .mainimg img {
+        width:150px;
+    }
+    .mainprogressbar {
+        max-width:100px;
+    }
+    .slidertext{
+        position: absolute;
+        z-index:  4;
+        font-size:14px;
+        visibility: hidden;
+    }
+    .skills {
+        max-width:100px;
+        margin-right: 90px;
+    }
+
+    .position {
+        visibility: hidden;
+    }
+   .progressbar {
+    visibility: hidden;
+   }
+   .contact-info {
+    max-width:480px;
+    width: 100%;
+   }
+   .address,.email, .phone {
+       width: 20px;
+   }
+   .hide {
+    width:100%;
+   }
+   .icons {
+    visibility: hidden;
+   }
+   .recomendation {
+       max-width:480px;
+       width: 100%;
+   }
+   .recomendation-content {
+       max-width:300px;
+       width:100%;
+   }
+   .articles {
+       max-width: 400px;
+       width: 100%;
+   }
+   .articles-boxes {
+    max-width: 400px;
+    width: 100%; 
+   }
+   .art-first-section-box img {
+       width: 300px;
+   }
+   .art-first-section-text p {
+       width:200px;
+   }
+   footer {
+        max-width: 400px;
+       width: 100%;
+   }
+    .footercontent {
+        max-width: 400px;
+        width: 100%;
+    }
+    .wrap {
+        max-width:400px;
+        width: 100%;
+    }
+   .latest-projects-title {
+       display: flex;
+       vertical-align:middle;
+       text-align: center;
+       justify-content: center;
+       align-items: center;
+       margin:auto;
+       padding: auto;
+   }
+}
